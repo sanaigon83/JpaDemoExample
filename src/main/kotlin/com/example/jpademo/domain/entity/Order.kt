@@ -5,7 +5,7 @@ import java.time.LocalDate
 import javax.persistence.*
 
 @Entity
-data class Order(
+class Order(
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="ORDER_ID")
     var id: Long,
